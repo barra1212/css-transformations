@@ -1,0 +1,23 @@
+img {
+    background-color: #000;
+    width: 150px;
+    height:150px;
+    margin: 25px;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+When hovered, move a div with a class of element on X axis by 100% in 1 second. Apply transitions.
